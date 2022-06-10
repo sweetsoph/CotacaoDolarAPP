@@ -6,7 +6,13 @@ import API from './Components/API';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Cotação Dólar para Real</Text>
+      <Text>Dados da Cotação</Text>
+      <Text>Compra: </Text>
+      <Text>Venda: </Text>
+      <Text>Variação: </Text>
+      <Text>Máximo: </Text>
+      <Text>Mínimo: </Text>
       <StatusBar style="auto" />
     </View>
   );
